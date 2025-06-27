@@ -1,0 +1,60 @@
+# ===== 基础忽略规则 =====
+# Xcode 自动生成的文件
+build/
+*.xcworkspace
+*.xcodeproj
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+xcuserdata/
+
+# 模拟器数据
+~/Library/Developer/CoreSimulator/
+
+# DerivedData
+~/Library/Developer/Xcode/DerivedData/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build
+
+# 本地配置文件
+*.xcconfig
+!Pods/Target Support Files/Pods-*/Pods-*.xcconfig  # 保留CocoaPods生成的配置
+
+# 日志文件
+*.log
+
+# 临时文件
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ===== 可选忽略规则 =====
+# 开发工具配置
+.vscode/
+.idea/
+*.safariextension
+
+# 应用签名文件
+*.provisionprofile
+*.p12
+*.mobileprovision
+
+# 生成的文档
+docs/
+Documentation/
+
+# 二进制文件
+*.framework
+*.a
+*.dylib
+
+DevelopmentPods/
+DevelopmentPods/**
