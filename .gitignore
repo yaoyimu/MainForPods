@@ -56,5 +56,5 @@ Documentation/
 *.a
 *.dylib
 
-DevelopmentPods/
-DevelopmentPods/**
+!DevelopmentPods/
+!DevelopmentPods/**
